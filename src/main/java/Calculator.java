@@ -42,7 +42,7 @@ class Calculator {
     int fibonacciNumberFinder(int num){
 
         if (num <= 1)
-            return n;
+            return num;
         return fibonacciNumberFinder(num-1) + fibonacciNumberFinder(num-2);
     }
 

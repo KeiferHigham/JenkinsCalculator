@@ -2,7 +2,7 @@ pipeline {
 
 environment {
 
-        registry = "Your_Dockerhub_Username/Your_Dockerhub_Repository_Name"
+        registry = "keifer22/jenkinscalculator"
 
         registryCredential = 'dockerhub'
 

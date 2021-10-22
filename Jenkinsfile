@@ -96,7 +96,7 @@ environment {
 
             failure{
 
-                     mail to: 'youremail@gmail.com',
+                     mail to: 'keifer.higham22@gmail.com',
 
               subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
 

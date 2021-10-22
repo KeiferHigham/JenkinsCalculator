@@ -39,11 +39,11 @@ class Calculator {
     .
     etc
      */
-    int fibonacciNumberFinder(int num){
+    int fibonacciNumberFinder(int number){
 
-        if (num <= 1)
-            return num;
-        return fibonacciNumberFinder(num-1) + fibonacciNumberFinder(num-2);
+        if (number <= 1)
+            return number;
+        return fibonacciNumberFinder(number-1) + fibonacciNumberFinder(number-2);
     }
 
 

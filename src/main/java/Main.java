@@ -4,6 +4,7 @@ public class Main {
 
     int second = 0;
     String functionToRun = args[0];
+
     String firstNum = args[1];
     int firstNumber = Integer.valueOf(firstNum);
     if(!args[2].equals((null))) {
@@ -26,6 +27,9 @@ public class Main {
     }
     else if(args[0].equals("fibonacci")) {
       System.out.println(calc.fibonacciNumberFinder(firstNumber));
+    }
+    else if(args[0].equals("divide")) {
+      System.out.println(calc.divide(firstNumber,second));
     }
     else {
       System.out.println("Please type in valid input");

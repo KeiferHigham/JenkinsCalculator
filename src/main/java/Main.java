@@ -2,10 +2,12 @@ public class Main {
 
   public static void main(String[] args) {
 
+
+    System.out.println("Welcome To the Calculator");
     int second = 0;
     String functionToRun = args[0];
     int firstNum = Integer.getInteger(args[1]);
-    if(!args[2].equals(null)) {
+    if(!functionToRun.equals(null)) {
       second = Integer.getInteger(args[2]);
     }
 

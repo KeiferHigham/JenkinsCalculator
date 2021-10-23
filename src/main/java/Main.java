@@ -7,7 +7,7 @@ public class Main {
 
     String firstNum = args[1];
     int firstNumber = Integer.valueOf(firstNum);
-    if(!args[2].equals((null))) {
+    if(args.length >= 3) {
       second = Integer.valueOf(args[2]);
     }
 
